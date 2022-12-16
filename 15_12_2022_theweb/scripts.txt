@@ -1,0 +1,36 @@
+function showPopUpWithImage() {
+  // Open a new window and store the reference to it in the variable "popup"
+  var popup = window.open("", "Pop-up with Image", "width=400,height=200");
+
+  // Write the HTML code that displays the image in the pop-up window
+  popup.document.write("<img src='image.jpg' alt='Some image'>");
+}
+
+
+
+function myFunction() {
+    var mre = (Math.floor(Math.random() * 3) + 1);
+
+    if (mre == 1) {
+        window.alert("Katze");
+    }
+    if (mre == 2) {
+        window.alert("Leopard");
+    }
+    if (mre == 3) {
+        window.alert("Löwe");
+    }
+}
+
+function yourFunction() {
+    var mrz = (Math.floor(Math.random() * 3) + 1);
+    if (mrz == 1) {
+        window.alert("Bär");
+    }
+    if (mrz == 2) {
+        window.alert("Tieger");
+    }
+    if (mrz == 3) {
+        window.alert("Hund");
+    }
+}
