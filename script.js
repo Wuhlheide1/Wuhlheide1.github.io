@@ -58,8 +58,7 @@ function pesentopen3() {
 
     //do something on number
     if (randomNumber3 == 1) {
-        window.alert("3/1")
-        document.getElementById("gith").src = "r.jpg";
+        document.getElementById("gith").src = "R.jpg";
 
     } else if (randomNumber3 == 2) {
         document.getElementById("gith").src = "vogel.jpg";
