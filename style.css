@@ -107,15 +107,6 @@ body
     }
 }
 
-body audio
-{
-    position: fixed;
-    bottom: 15px;
-    width: 400px;
-    border: 3px solid;
-    border-radius: 30px;
-    left: calc(50% - 157px);
-}
 
 body ol li button img
 {
