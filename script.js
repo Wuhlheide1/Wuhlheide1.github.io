@@ -6,7 +6,7 @@ function pesentopen1() {
     var randomNumber1 = Math.floor(Math.random() * 4) + 1;
     const audioElement = document.getElementById('myAudio');
 
-        audioElement.load();
+        audioElement.currentTime = 0;
         audioElement.play();
 
     //do something on number
@@ -28,9 +28,9 @@ function pesentopen1() {
 function pesentopen2() {
     // Generate a random number between 1 and 3
     var randomNumber2 = Math.floor(Math.random() * 4) + 1;
-    const audioElement = document.getElementById('myAudio');
+        const audioElement = document.getElementById('myAudio');
 
-        audioElement.load();
+        audioElement.currentTime = 0;
         audioElement.play();
 
     //do something on number
@@ -51,9 +51,9 @@ function pesentopen2() {
 function pesentopen3() {
     // Generate a random number between 1 and 3
     var randomNumber3 = Math.floor(Math.random() * 4) + 1;
-    const audioElement = document.getElementById('myAudio');
+        const audioElement = document.getElementById('myAudio');
 
-        audioElement.load();
+        audioElement.currentTime = 0;
         audioElement.play();
 
     //do something on number
